@@ -8,6 +8,8 @@ Also you can contact me for any question.
 This application uses my api key, just need to replace with your api key and it works for you too.
 Api key can get this: https://openweathermap.org/api
 
+Free downloads and try on your PC
+
 
 LAST UPDATE
 
