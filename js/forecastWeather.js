@@ -29,7 +29,7 @@ document.getElementById('search').addEventListener('click',function(e){
         var temperature = kTemp - 273;
         var temperature = temperature.toFixed(1);
         var icon = data.list[0].weather[0].icon;
-        var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+        var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
         var desc = data.list[0].weather[0].description;
 
         place.textContent = `${cityName}`;
@@ -74,7 +74,7 @@ function prepareForecast($days) {
         var temps = temps - 273;
         var temps = temps.toFixed(1);
         var icon = $days[i].weather[0].icon;
-        var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+        var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
         var cloud = $days[i].clouds.all;
         var descPath = $days[i].weather[0].description;
         var description = descPath.charAt(0).toUpperCase() + descPath.slice(1).toLowerCase();
@@ -146,7 +146,7 @@ function forecastMore(data) {
                 var hours = list[i].dt_txt;
                 var hours = String(hours).slice(10, 16);
                 var icon = list[i].weather[0].icon;
-                var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+                var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
                 var temperature = list[i].main.temp;
                 var temperature = temperature - 273;
                 var temperature = temperature.toFixed(1);
