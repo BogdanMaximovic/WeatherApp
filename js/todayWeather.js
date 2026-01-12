@@ -15,7 +15,7 @@ document.getElementById('search').addEventListener('click', function(){
 	const city = document.getElementById('text').value
 	if (!city) alert('Please insert city name!');
 	const apiSite = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&';
-    const apiKey = 'appid=d108ea747e0359604e7c0b4e531b4f6c';
+    const apiKey = 'appid=a4c35d01517f9258aa465d9e2f5baff8';
     const url = apiSite + apiKey;
 
 	function getWeather(data) {
