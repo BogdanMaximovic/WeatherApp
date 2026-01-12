@@ -12,9 +12,9 @@ document.getElementById('search').addEventListener('click',function(e){
     
 	const city = document.getElementById('text').value
     if (!city) alert('Please insert city name!');
-    const apiSite = 'https://api.openweathermap.org/data/2.5/forecast?q=' + city + '&';
-    const apiKey = 'appid=a4c35d01517f9258aa465d9e2f5baff8';
-    const url = apiSite + apiKey;
+    const apiSite = 'https://api.openweathermap.org/data/2.5/weather?lat=44.804&lon=20.4651&appid=a4c35d01517f9258aa465d9e2f5baff8';
+    // const apiKey = 'appid=a4c35d01517f9258aa465d9e2f5baff8';
+    const url = apiSite;
 
   function getForecast(data) {
 
