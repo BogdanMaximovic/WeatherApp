@@ -22,7 +22,7 @@ document.getElementById('search').addEventListener('click',function(e){
         forecastInfo.classList.add("d-block");
         hidden.classList.add("d-none");
 console.log(data)
-        var cityName = data.city.name;
+        var cityName = data.name;
         var dateShort = data.list[0].dt_txt;
         var dateShort = String(dateShort).slice(10, 16);
         var kTemp = data.list[0].main.temp;
