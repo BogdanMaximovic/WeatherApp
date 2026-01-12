@@ -21,7 +21,7 @@ document.getElementById('search').addEventListener('click',function(e){
         mainForecast.classList.add("d-block");
         forecastInfo.classList.add("d-block");
         hidden.classList.add("d-none");
-
+console.log(data)
         var cityName = data.city.name;
         var dateShort = data.list[0].dt_txt;
         var dateShort = String(dateShort).slice(10, 16);
