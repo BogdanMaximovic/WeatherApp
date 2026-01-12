@@ -13,7 +13,7 @@ document.getElementById('search').addEventListener('click',function(e){
 	const city = document.getElementById('text').value
     if (!city) alert('Please insert city name!');
     const apiSite = 'http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&';
-    const apiKey = 'appid=a4c35d01517f9258aa465d9e2f5baff8';
+    const apiKey = 'appid=d108ea747e0359604e7c0b4e531b4f6c';
     const url = apiSite + apiKey;
 
   function getForecast(data) {
