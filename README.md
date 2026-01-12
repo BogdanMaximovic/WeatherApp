@@ -10,7 +10,4 @@ Api key can get this: https://openweathermap.org/api
 
 Free downloads and try on your PC
 
-
-LAST UPDATE
-
-The page at 'https://bogdanmaximovic.github.io/WeatherApp/forecast.html' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://api.openweathermap.org/data/2.5/forecast?q=belgrade&appid=a4c35d01517f9258aa465d9e2f5baff8'. This request has been blocked; the content must be served over HTTPS.
+https://bogdanmaximovic.github.io/WeatherApp/forecast.html
